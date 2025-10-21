@@ -14,7 +14,7 @@ pip install -e .
 ### Usage
 
 ```sh
-uv run python main.py path/to/image.png --width 20 --height 20 --cell-size 40 --output-dir output --max-colors 16
+uv run python main.py .\images\flower.jpg --width 20 --height 20 --cell-size 20 --output-dir images --max-colors 32 --numbered-page
 ```
 
 Arguments:
@@ -27,3 +27,7 @@ Arguments:
 - `--numbered-page`: labels each grid cell with its colour number so kids can colour without a separate printed legend. When enabled, `legend.json` includes a `color_numbers` section showing the mapping between numbers and colour names.
 
 All colours are matched to the nearest CSS3 colour name so they are easy to describe in the legend.
+
+![Preview 20x20](images/flower.jpg)
+![Preview 20x20](images/preview.png)
+![Preview 20x20](images/coding_page.png)
