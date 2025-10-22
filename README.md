@@ -6,9 +6,10 @@ Turn any image into a printable coding page for kids. The tool converts an input
 - a filled preview so you can verify the result before printing.
 
 ### Installation
+Project uses [uv](https://docs.astral.sh/uv/getting-started/installation/) package manager. To install dependecies run:
 
 ```sh
-pip install -e .
+uv sync
 ```
 
 ### Usage
